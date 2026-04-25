@@ -38,7 +38,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDkDnZ9Q4WxRl0hX5rLC8jC851tbgsG6k0',
+    apiKey: 'YOUR_API_KEY',
     appId: '1:692441432773:android:1bfb040843e7eb0b9566ac',
     messagingSenderId: '692441432773',
     projectId: 'agroalchemy-9394d',
