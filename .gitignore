@@ -1,0 +1,12 @@
+agro_alchemy_ui/build/app/outputs/flutter-apk/*
+.env
+__pycache__/
+*.pyc
+app.log
+__pycache__/
+*.pyc
+app.log
+app.log
+__pycache__/
+*.pyc
+app.log

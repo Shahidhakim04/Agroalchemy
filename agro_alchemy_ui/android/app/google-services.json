@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "692441432773",
+    "project_id": "agroalchemy-9394d",
+    "storage_bucket": "agroalchemy-9394d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692441432773:android:1bfb040843e7eb0b9566ac",
+        "android_client_info": {
+          "package_name": "com.example.agroAlchemy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkDnZ9Q4WxRl0hX5rLC8jC851tbgsG6k0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,6 @@
+flask
+flask-cors
+passlib
+google-genai
+python-dotenv
+Pillow

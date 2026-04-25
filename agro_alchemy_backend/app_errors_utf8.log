@@ -1,0 +1,284 @@
+﻿python : C:\Users\ASUS\AppDat
+a\Local\Programs\Python\Pytho
+n310\lib\site-packages\sklear
+n\base.py:442: 
+InconsistentVersionWarning: 
+Trying to unpickle estimator 
+DecisionTreeClassifier from 
+version 1.6.1 when using 
+version 1.7.2. This might 
+lead to breaking code or 
+invalid results. Use at your 
+own risk. For more info 
+please refer to:
+At line:1 char:1
++ python app.py > 
+app_errors.log 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (C:\User  
+  s\ASUS\A...lease refer t   
+ o::String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+https://scikit-learn.org/stab
+le/model_persistence.html#sec
+urity-maintainability-limitat
+ions
+  warnings.warn(
+C:\Users\ASUS\AppData\Local\P
+rograms\Python\Python310\lib\
+site-packages\sklearn\base.py
+:442: 
+InconsistentVersionWarning: 
+Trying to unpickle estimator 
+RandomForestClassifier from 
+version 1.6.1 when using 
+version 1.7.2. This might 
+lead to breaking code or 
+invalid results. Use at your 
+own risk. For more info 
+please refer to:
+https://scikit-learn.org/stab
+le/model_persistence.html#sec
+urity-maintainability-limitat
+ions
+  warnings.warn(
+C:\Users\ASUS\AppData\Local\P
+rograms\Python\Python310\lib\
+site-packages\sklearn\base.py
+:442: 
+InconsistentVersionWarning: 
+Trying to unpickle estimator 
+DummyClassifier from version 
+1.6.1 when using version 
+1.7.2. This might lead to 
+breaking code or invalid 
+results. Use at your own 
+risk. For more info please 
+refer to:
+https://scikit-learn.org/stab
+le/model_persistence.html#sec
+urity-maintainability-limitat
+ions
+  warnings.warn(
+C:\Users\ASUS\AppData\Local\P
+rograms\Python\Python310\lib\
+site-packages\sklearn\base.py
+:442: 
+InconsistentVersionWarning: 
+Trying to unpickle estimator 
+DecisionTreeRegressor from 
+version 1.6.1 when using 
+version 1.7.2. This might 
+lead to breaking code or 
+invalid results. Use at your 
+own risk. For more info 
+please refer to:
+https://scikit-learn.org/stab
+le/model_persistence.html#sec
+urity-maintainability-limitat
+ions
+  warnings.warn(
+C:\Users\ASUS\AppData\Local\P
+rograms\Python\Python310\lib\
+site-packages\sklearn\base.py
+:442: 
+InconsistentVersionWarning: 
+Trying to unpickle estimator 
+GradientBoostingClassifier 
+from version 1.6.1 when 
+using version 1.7.2. This 
+might lead to breaking code 
+or invalid results. Use at 
+your own risk. For more info 
+please refer to:
+https://scikit-learn.org/stab
+le/model_persistence.html#sec
+urity-maintainability-limitat
+ions
+  warnings.warn(
+C:\Users\ASUS\AppData\Local\P
+rograms\Python\Python310\lib\
+site-packages\sklearn\base.py
+:442: 
+InconsistentVersionWarning: 
+Trying to unpickle estimator 
+StandardScaler from version 
+1.6.1 when using version 
+1.7.2. This might lead to 
+breaking code or invalid 
+results. Use at your own 
+risk. For more info please 
+refer to:
+https://scikit-learn.org/stab
+le/model_persistence.html#sec
+urity-maintainability-limitat
+ions
+  warnings.warn(
+C:\Users\ASUS\AppData\Local\P
+rograms\Python\Python310\lib\
+site-packages\sklearn\base.py
+:442: 
+InconsistentVersionWarning: 
+Trying to unpickle estimator 
+LabelEncoder from version 
+1.6.1 when using version 
+1.7.2. This might lead to 
+breaking code or invalid 
+results. Use at your own 
+risk. For more info please 
+refer to:
+https://scikit-learn.org/stab
+le/model_persistence.html#sec
+urity-maintainability-limitat
+ions
+  warnings.warn(
+Successfully loaded ML model for fertilizer/crop prediction.
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a 
+development server. Do not 
+use it in a production 
+deployment. Use a production 
+WSGI server instead.
+ * Running on all addresses 
+(0.0.0.0)
+ * Running on 
+http://127.0.0.1:5000
+ * Running on 
+http://192.168.1.35:5000
+Press CTRL+C to quit
+ * Restarting with watchdog 
+(windowsapi)
+C:\Users\ASUS\AppData\Local\P
+rograms\Python\Python310\lib\
+site-packages\sklearn\base.py
+:442: 
+InconsistentVersionWarning: 
+Trying to unpickle estimator 
+DecisionTreeClassifier from 
+version 1.6.1 when using 
+version 1.7.2. This might 
+lead to breaking code or 
+invalid results. Use at your 
+own risk. For more info 
+please refer to:
+https://scikit-learn.org/stab
+le/model_persistence.html#sec
+urity-maintainability-limitat
+ions
+  warnings.warn(
+C:\Users\ASUS\AppData\Local\P
+rograms\Python\Python310\lib\
+site-packages\sklearn\base.py
+:442: 
+InconsistentVersionWarning: 
+Trying to unpickle estimator 
+RandomForestClassifier from 
+version 1.6.1 when using 
+version 1.7.2. This might 
+lead to breaking code or 
+invalid results. Use at your 
+own risk. For more info 
+please refer to:
+https://scikit-learn.org/stab
+le/model_persistence.html#sec
+urity-maintainability-limitat
+ions
+  warnings.warn(
+C:\Users\ASUS\AppData\Local\P
+rograms\Python\Python310\lib\
+site-packages\sklearn\base.py
+:442: 
+InconsistentVersionWarning: 
+Trying to unpickle estimator 
+DummyClassifier from version 
+1.6.1 when using version 
+1.7.2. This might lead to 
+breaking code or invalid 
+results. Use at your own 
+risk. For more info please 
+refer to:
+https://scikit-learn.org/stab
+le/model_persistence.html#sec
+urity-maintainability-limitat
+ions
+  warnings.warn(
+C:\Users\ASUS\AppData\Local\P
+rograms\Python\Python310\lib\
+site-packages\sklearn\base.py
+:442: 
+InconsistentVersionWarning: 
+Trying to unpickle estimator 
+DecisionTreeRegressor from 
+version 1.6.1 when using 
+version 1.7.2. This might 
+lead to breaking code or 
+invalid results. Use at your 
+own risk. For more info 
+please refer to:
+https://scikit-learn.org/stab
+le/model_persistence.html#sec
+urity-maintainability-limitat
+ions
+  warnings.warn(
+C:\Users\ASUS\AppData\Local\P
+rograms\Python\Python310\lib\
+site-packages\sklearn\base.py
+:442: 
+InconsistentVersionWarning: 
+Trying to unpickle estimator 
+GradientBoostingClassifier 
+from version 1.6.1 when 
+using version 1.7.2. This 
+might lead to breaking code 
+or invalid results. Use at 
+your own risk. For more info 
+please refer to:
+https://scikit-learn.org/stab
+le/model_persistence.html#sec
+urity-maintainability-limitat
+ions
+  warnings.warn(
+C:\Users\ASUS\AppData\Local\P
+rograms\Python\Python310\lib\
+site-packages\sklearn\base.py
+:442: 
+InconsistentVersionWarning: 
+Trying to unpickle estimator 
+StandardScaler from version 
+1.6.1 when using version 
+1.7.2. This might lead to 
+breaking code or invalid 
+results. Use at your own 
+risk. For more info please 
+refer to:
+https://scikit-learn.org/stab
+le/model_persistence.html#sec
+urity-maintainability-limitat
+ions
+  warnings.warn(
+C:\Users\ASUS\AppData\Local\P
+rograms\Python\Python310\lib\
+site-packages\sklearn\base.py
+:442: 
+InconsistentVersionWarning: 
+Trying to unpickle estimator 
+LabelEncoder from version 
+1.6.1 when using version 
+1.7.2. This might lead to 
+breaking code or invalid 
+results. Use at your own 
+risk. For more info please 
+refer to:
+https://scikit-learn.org/stab
+le/model_persistence.html#sec
+urity-maintainability-limitat
+ions
+  warnings.warn(
+ * Debugger is active!
+ * Debugger PIN: 499-672-822

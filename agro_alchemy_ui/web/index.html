@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Base path for Flutter web app (update for non-root serving paths) -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="agro_alchemy_ui">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Google Sign-In SDK -->
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  
+  <!-- Google Sign-In Client ID -->
+  <meta name="google-signin-client_id" content="1090830854366-bo6vtcu4itd6plqh78g4p2k0ekiu0ucp.apps.googleusercontent.com">
+
+  <!-- Firebase SDK -->
+  <!-- Firebase App SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
+  <!-- Firebase Authentication SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-auth.js"></script>
+  <!-- Firebase Analytics SDK (optional) -->
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js"></script>
+
+  <!-- Initialize Firebase -->
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyBArKnDVCNK7IdBDecPQx2NujcZLD5u3D0",
+      authDomain: "hackathonapp-8b899.firebaseapp.com",
+      projectId: "hackathonapp-8b899",
+      storageBucket: "hackathonapp-8b899.firebasestorage.app",
+      messagingSenderId: "1090830854366",
+      appId: "1:1090830854366:web:363c91b73f954c4ca3ba4f",
+      measurementId: "G-4MMFQVL2Z9"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Title -->
+  <title>agro_alchemy_ui</title>
+
+  <!-- Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Meta for viewport -->
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+
+  <!-- Splash screen styles -->
+  <style id="splash-screen-style">
+    html {
+      height: 100%
+    }
+
+    body {
+      margin: 0;
+      min-height: 100%;
+      background-color: #FFFFFF;
+      background-size: 100% 100%;
+    }
+
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    .contain {
+      display:block;
+      width:100%; height:100%;
+      object-fit: contain;
+    }
+
+    .stretch {
+      display:block;
+      width:100%; height:100%;
+    }
+
+    .cover {
+      display:block;
+      width:100%; height:100%;
+      object-fit: cover;
+    }
+
+    .bottom {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      -ms-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+    }
+
+    .bottomLeft {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    .bottomRight {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  </style>
+
+  <!-- Splash screen script -->
+  <script id="splash-screen-script">
+    function removeSplashFromWeb() {
+      document.getElementById("splash")?.remove();
+      document.getElementById("splash-branding")?.remove();
+      document.body.style.background = "transparent";
+    }
+  </script>
+
+</head>
+<body>
+  <!-- Splash Screen -->
+  <picture id="splash">
+    <source srcset="splash/img/light-1x.png 1x, splash/img/light-2x.png 2x, splash/img/light-3x.png 3x, splash/img/light-4x.png 4x" media="(prefers-color-scheme: light)">
+    <source srcset="splash/img/dark-1x.png 1x, splash/img/dark-2x.png 2x, splash/img/dark-3x.png 3x, splash/img/dark-4x.png 4x" media="(prefers-color-scheme: dark)">
+    <img class="center" aria-hidden="true" src="splash/img/light-1x.png" alt="">
+  </picture>
+  
+  <!-- Firebase bootstrapping -->
+  <script src="flutter_bootstrap.js" async=""></script>
+
+</body>
+</html>

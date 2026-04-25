@@ -1,0 +1,21 @@
+{
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "agroalchemy-9394d",
+                    "appId": "1:692441432773:android:1bfb040843e7eb0b9566ac",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "agroalchemy-9394d",
+                    "configurations": {
+                        "android": "1:692441432773:android:1bfb040843e7eb0b9566ac"
+                    }
+                }
+            }
+        }
+    }
+}

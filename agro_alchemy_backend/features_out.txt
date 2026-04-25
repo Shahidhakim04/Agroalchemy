@@ -1,0 +1,5 @@
+Number of features: 8
+Features: ['District_Name', 'Soil_color', 'Nitrogen', 'Phosphorus', 'Potassium', 'pH', 'Rainfall', 'Temperature']
+Scaler features in: ['District_Name', 'Soil_color', 'Nitrogen', 'Phosphorus', 'Potassium', 'pH', 'Rainfall', 'Temperature']
+Crop model features in: 8
+Fertilizer model features in: 9
